@@ -1,4 +1,4 @@
-function MyButtom ({label,onClick,className}:any){
+function  Btn ({label,onClick,className}:any){
     return(
         <>
             <button className={className} onClick={onClick}>
@@ -8,4 +8,4 @@ function MyButtom ({label,onClick,className}:any){
     )
 }
 
-export default MyButtom;
+export default Btn;
